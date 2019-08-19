@@ -1,0 +1,27 @@
+.music-card {
+    max-width: 400px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin:auto; */
+    max-width: 400px;
+    margin-left: 54px;
+    }
+  
+  .music-header-image {
+    background-image: url('/assets/cok.png');
+    background-size: cover;
+  }
+  .tracks{
+    background-image: url("/assets/con.png");
+    
+  }
+  .container{
+    background-image: url("/assets/ck.jpg");
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+  }

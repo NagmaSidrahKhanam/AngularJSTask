@@ -1,0 +1,49 @@
+<!-- <p>playlist-track works!</p> -->
+<div class="playlist">
+  <article>My Playlist</article>
+  <span class="cardlist">
+    <div style="margin: auto" *ngFor="let item of playlist;">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>Music Tracks</mat-card-title>
+          <mat-card-subtitle>By Muzix</mat-card-subtitle>
+        </mat-card-header>
+
+        <img mat-card-image src="/assets/cok.png" alt="Music Track">
+        <mat-card-content>
+          <p>
+            Concert Crowd Png Transparent Background - Concerts & Music Events
+          </p>
+          
+          <mat-card-title>{{item.name}}</mat-card-title>
+          <!-- <mat-card-subtitle>{{item.}}</mat-card-subtitle> -->
+        </mat-card-content>
+        <mat-card-actions>
+          <button (click)="updatetrack(item)">Edit</button>
+
+                 <button (click)="removetrack(item)">Delete</button>
+               </mat-card-actions>
+             </mat-card> 
+        </div>
+    </span>
+
+
+  <!-- </span> -->
+                
+  <!-- <span style="margin: auto;padding: 6px;color:whitesmoke" *ngIf="tracks.length == 0">
+    no data
+  </span>
+   -->
+  
+<div *ngIf="showform == true">
+    
+        <input type = "text"  placeholder = "Song name" [(ngModel)]="songname">
+        <br/>
+        <input type = "text" placeholder = "Artist name" [(ngModel)]="artistname">
+        <br/>
+        <button (click)="update()">update</button>
+        
+    </div>
+       </div>
+       

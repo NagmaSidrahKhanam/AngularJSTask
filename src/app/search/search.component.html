@@ -1,0 +1,15 @@
+<!-- Search form -->
+<div class="search">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- <mat-search-bar (onEnter)="submit($event)">Search</mat-search-bar> -->
+<div class=search>
+        <form class="form-inline my-2 my-lg-3 hello" #createForm="ngForm" (ngSubmit)="search()" >
+
+         <input class="form-control mr-sm-2" type="text" name="trackname" [(ngModel)]="trackname" placeholder="Track Name" aria-label="Search">
+         <button type="button" class="btn btn-primary" type="submit" id="button-addon2">Search</button>
+        
+        </form>
+        </div>
+</div>
+
+

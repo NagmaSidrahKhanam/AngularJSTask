@@ -1,0 +1,64 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.mat-toolbar{
+background-color:rgb(247, 7, 47);
+width: 100%;
+height:90px;
+}
+.mat-toolbar span{
+text-align: center;
+font-weight: bold;
+font-style: normal;
+font-size: 25px;
+margin: auto;
+text-decoration-color: red;
+}
+
+.mat-toolbar img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+  
+}
+.mat-toolbar button{
+    /* padding: 0 6px 0 6px;
+    margin: 6px 8px 6px 8px; */
+    min-width: 88px;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:none;
+    border: seashell;
+    outline: none;
+    background-color: rgb(5, 101, 131);
+    padding: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+  }
+  .mat-toolbar img{
+      height: 2cm;
+  }
+  .md-button.md-fab {
+    line-height: 5.6rem;
+    min-width: 0;
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+  }
+
+/*  
+.mat-toolbar button {
+    line-height: 5.6rem;
+    min-width: 0;
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    background-color: orange;
+    border: radius 2px;
+  } */
+.addbutton{
+    float: right;
+}

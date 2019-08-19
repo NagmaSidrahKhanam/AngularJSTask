@@ -1,0 +1,29 @@
+<div class="playlist" >
+        <article>TRACKS</article>
+        <span class="cardlist">
+        <div style="margin: auto" *ngFor="let item of toptracks;index as i">
+           <mat-card class="example-card" >     
+               <mat-card-header>
+                 <div mat-card-avatar class="example-header-image"></div>
+                 <mat-card-title>Music Tracks</mat-card-title>
+                 <mat-card-subtitle>By Muzix.com</mat-card-subtitle>
+               </mat-card-header>
+                
+               <img mat-card-image src="/assets/cok.png" alt="Music Track">
+               <mat-card-content>
+                 <p>
+                       Concert Crowd Png Transparent Background - Concerts & Music Events
+                 </p>
+                 <mat-card-title>{{item.name}}</mat-card-title>
+                 <!-- <mat-card-subtitle>{{item.comment}}</mat-card-subtitle> -->
+               </mat-card-content>
+               <mat-card-actions>
+                 
+                 <button mat-button mat-raised-button color="primary" (click)=save(item,i)>Add to Favourites</button>
+
+                 <!-- <button mat-button>SHARE</button> -->
+               </mat-card-actions>
+             </mat-card> 
+        </div>
+    </span>
+       </div>

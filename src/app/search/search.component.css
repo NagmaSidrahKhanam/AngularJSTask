@@ -1,0 +1,17 @@
+.mat-search-bar{
+    float: left;
+    background-color:coral;
+
+   
+}
+.search{
+    float:center;
+    /* background-color:coral; */
+    color: beige;
+    border-bottom-color: white; 
+    border-color: floralwhite;
+    margin: 20px auto;
+    max-width: 150px;
+    text-align: right;
+    margin-left: -121px;
+}

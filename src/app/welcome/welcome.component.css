@@ -1,0 +1,32 @@
+#myDIV {
+    width: 100%;
+    height: 100px;
+    background: rgb(177, 4, 4);
+    margin-top: -21px;
+    height: 43px;
+
+    /* -webkit-animation: mymove 5s infinite;  */
+    /* Chrome, Safari, Opera */
+    /* animation: mymove 5s infinite;
+    text-align: center;
+    text-shadow: 20mm;
+     */
+  }
+  
+  /* Chrome, Safari, Opera */
+  /* @-webkit-keyframes mymove { */
+    /* from {background-color: brown;}
+    to {background-color: brown;} */
+    /* 50% {text-shadow: 10px 20px 30px blue;}
+
+  }
+   */
+  /* Standard syntax */
+  /* @keyframes mymove { */
+    /* from {background-color: red;}
+    to {background-color: yellow;} */
+    /* 50% {text-shadow: 10px 20px 30px blue;}
+
+  } */
+
+
